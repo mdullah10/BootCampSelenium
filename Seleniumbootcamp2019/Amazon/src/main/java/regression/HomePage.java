@@ -31,7 +31,6 @@ public class HomePage extends SeleniumAPI {
     public void setSignIn(String User, String Pass) {
         SignIn.click();
         UserId.sendKeys(User);
-        sleepFor(3);
         PassWord.sendKeys(Pass);
         SignInButton.click();
         sleepFor(3);

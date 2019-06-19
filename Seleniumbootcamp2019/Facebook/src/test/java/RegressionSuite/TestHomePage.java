@@ -15,23 +15,30 @@ public class TestHomePage extends SeleniumAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
         driver.get(url);
     }
-   // @Test
-    public void ClickOnLogin(){
+
+     @Test
+    public void ClickOnLogin() {
         homePage.setSignIn();
     }
-   // @Test
-    public void ClickOnSearchButton(){
+
+     @Test
+    public void ClickOnSearchButton() {
         homePage.setInputSearch();
     }
-   // @Test
-    public void ClickOnName(){
+
+    //@Test
+    public void ClickOnName() {
         homePage.SearcByhName();
     }
+
     //@Test
-    public void CommentAPost(){
+    public void CommentAPost() {
         homePage.CommentOnAPost();
     }
-    @Test public void FriendRequestSand(){
+
+    //@Test
+    public void FriendRequestSand() {
         homePage.SandFriendRequest();
     }
+
 }

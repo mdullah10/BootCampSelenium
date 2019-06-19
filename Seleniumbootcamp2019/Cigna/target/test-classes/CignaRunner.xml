@@ -10,10 +10,10 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="browserVersion" value="74.0"/>
     <parameter name="envName" value="envName"/>
-    <parameter name="url" value="https://www.citibank.com/"/>
+    <parameter name="url" value="https://www.Cigna.com/"/>
     <parameter name="platform" value="windows"/>
 
-    <test name="citibank Test">
+    <test name="Cigna Test">
         <classes>
             <class name="RegressionSuite.TestHomePage"/>
 

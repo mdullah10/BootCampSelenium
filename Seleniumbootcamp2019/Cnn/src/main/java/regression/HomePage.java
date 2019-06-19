@@ -6,14 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends SeleniumAPI {
+
     @FindBy(xpath = "//*[@id=\"nav\"]/div[2]/div[2]/a[3]")
     WebElement navigation;
+
     @FindBy(xpath = "//*[@id=\"politics-zone-1\"]/div[2]/div/div[1]/ul/li[1]/article/div/div[2]/h3/a/span[1]")
     WebElement readNews;
+
     @FindBy(xpath = "//*[@id=\"search-button\"]")
     WebElement SearchButton;
+
     @FindBy(xpath = "//*[@id=\"search-input-field\"]")
     WebElement SearchNews;
+
     public void NavigationTab(){
         navigation.click();
     }

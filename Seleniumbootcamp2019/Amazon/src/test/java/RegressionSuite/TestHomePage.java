@@ -16,13 +16,13 @@ public class TestHomePage extends SeleniumAPI {
         driver.get(url);
     }
 
-    //@Test
+    @Test
     public void ClickOnSignIn() {
         homePage.setSignIn("mdulla1984@gmail.com", "momin0298");
 
     }
 
-    //@Test
+   // @Test
     public void searchItems() {
         homePage.setInputSearch();
     }
@@ -30,7 +30,7 @@ public class TestHomePage extends SeleniumAPI {
     public void ClickOnProduct(){
         homePage.SelectProduct();
     }
-    //@Test
+    @Test
     public void AddToCartButton(){
         homePage.AddtoCart();
     }
@@ -42,7 +42,7 @@ public class TestHomePage extends SeleniumAPI {
     public void CheckNavigation(){
         homePage.NavigateBack();
     }
-    @Test
+    //@Test
     public void ClickOnSignOut(){
         homePage.setSignOut();
     }
